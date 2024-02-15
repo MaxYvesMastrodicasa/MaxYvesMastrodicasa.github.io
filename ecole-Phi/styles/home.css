@@ -315,6 +315,10 @@ a {
     height: 100%;
 }
 
+.image a {
+    color: #222 
+}
+
 .Presentation {
     background-color: #E5E4E2;
     display: flex;
