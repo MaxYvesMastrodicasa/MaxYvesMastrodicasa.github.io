@@ -1,0 +1,56 @@
+.app-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.app-item {
+    width: 20rem;
+    max-width: 95%;
+    margin: 1rem;
+}
+
+.app__title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.app__price {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.app__description {
+    text-align: center;
+}
+
+.card__image{
+    display: flex;
+    justify-content: center;
+}
+
+.card__actions{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.diff_btn_custom{
+    background: var(--custom-btn-bg-color);
+    border: none;
+    border-radius: var(--border-radius-large);
+    color: var(--black-color);
+    font-family: var(--heading-font-family);
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-bold);
+    transition: all 0.3s;
+    margin-bottom: 0;
+}
